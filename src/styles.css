@@ -1,7 +1,29 @@
 .visible.drop-down-content {
-    display: flex;
+  display: flex;
+  flex-direction: column;
 }
 
 .drop-down-content {
-    display: none;
+  display: none;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(219, 220, 220);
+  border-radius: 3px;
+}
+
+.drop-down-content button {
+  border-radius: 0;
+  border: 0px solid black;
+  margin: 2px;
+}
+
+.drop-down-content button:hover {
+  background-color: antiquewhite;
+}
+
+.drop-down-button {
+  font-size: 1.1em;
+  text-align: center;
+  border-width: 1px;
+  color: rgb(69, 67, 67);
 }
