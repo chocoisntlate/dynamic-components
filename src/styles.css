@@ -27,3 +27,28 @@
   border-width: 1px;
   color: rgb(69, 67, 67);
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slides {
+  background-color: rgb(209, 207, 207);
+  width: 900px;
+  height: 300px;
+
+  display: flex;
+}
+
+.frame {
+  border: 5px solid black;
+  width: 300px;
+  overflow: hidden;
+}
+
+.slide-image {
+  width: 300px;
+}
