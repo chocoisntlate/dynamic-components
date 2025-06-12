@@ -52,3 +52,10 @@
 .slide-image {
   width: 300px;
 }
+
+.image-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

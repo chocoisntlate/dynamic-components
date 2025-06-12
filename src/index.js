@@ -5,7 +5,10 @@ import { Carousel } from "./app/image-carousel";
 DropDown.initialise();
 Carousel.initialise();
 Carousel.next(document.querySelector('.image-carousel'))
-Carousel.next(document.querySelector('.image-carousel'))
-Carousel.next(document.querySelector('.image-carousel'))
-Carousel.next(document.querySelector('.image-carousel'))
-Carousel.next(document.querySelector('.image-carousel'))
+Carousel.previous(document.querySelector('.image-carousel'))
+Carousel.previous(document.querySelector('.image-carousel'))
+
+// Carousel.next(document.querySelector('.image-carousel'))
+// Carousel.next(document.querySelector('.image-carousel'))
+// Carousel.next(document.querySelector('.image-carousel'))
+// Carousel.next(document.querySelector('.image-carousel'))
