@@ -1,0 +1,7 @@
+.visible.drop-down-content {
+    display: flex;
+}
+
+.drop-down-content {
+    display: none;
+}
